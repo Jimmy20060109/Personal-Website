@@ -1,0 +1,202 @@
+.header{
+    background-color: #F2F9FF;
+    display:grid;
+    padding-bottom: 5%;
+}
+#bookid{
+    transform: rotate(15deg);
+}
+#book{
+    display: flex;
+    justify-content: start;
+    margin-left:100px;
+    padding-top: 20px;
+}
+#name{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 30vh;
+}
+
+h1{
+    font-family: "Rubik Vinyl", serif;
+    font-size: 100px !important;
+    font-weight: bold !important;
+    font-style: italic;
+}
+
+#android{
+    display:flex;
+    justify-content: end;
+    margin-right: 100px;
+}
+
+#androidid{
+    transform: rotate(-15deg);
+}
+
+#images{
+    display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows:1fr 0.3fr;
+        gap:3% 10%;
+        justify-items: center;
+}
+#financial{
+    height:330px;
+    width:330px;
+    border:12px solid #FFCCE1;
+    border-radius: 90cm;
+    display:inline-block;
+    
+}
+#financialpng{
+    padding-top:20px;
+    width: 95%;
+    height:95%;
+}
+#programmer{
+    height:330px;
+    width:330px;
+    border:12px solid #FFCCE1;
+    border-radius: 40cm;
+    display:inline-block;
+}
+#programmerpng{
+    width:90%;
+    height:90%;
+    padding-top:20px;
+}
+p{
+    text-align: center;
+    font-family: "Playfair Display", serif;
+    font-weight:bold;
+    font-size:30px;
+}
+#jobs{
+    margin-top:0%;
+    padding-top:0%;
+    display:flex;
+    justify-content: space-around;
+}
+#image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.middle{
+    display: flex;
+    justify-content: center;
+}
+#myimage{
+    width:50%;
+    display:flex;
+    justify-content: center;
+
+}
+.space{
+    margin-top: 5%;}
+
+h2{
+    text-align: center ;
+    font-family: "Sacramento", serif;
+    font-style: bold;
+    font-size: 100px !important;
+}
+
+.featurette{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.lead{
+    font-family: "Merriweather", serif;
+    font-weight: bold;
+}
+.space{
+    padding-top: 15px;
+}
+
+.myimage{
+    width:60% !important;
+    height: 50% !important;
+    border: 10px solid #FFCCE1;
+    border-radius: 5rem;
+}
+.col-md-5 {
+    display: flex !important;
+    justify-content: center !important;
+    align-content: center !important;
+}
+
+.my{
+    padding-top: 10vh;
+    text-align: center;
+}
+
+h3{
+    font-size: 35px !important;
+    font-family: "DM Serif Text", serif;
+    color: #6710bd !important;
+    font-weight: bold !important;
+}
+.con{
+    background-color: white !important;
+}
+
+.text{
+    font-size: 20px !important;
+}
+@media(max-width:750px){
+
+    #name{
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        height: 30vh;
+    }
+    h1{
+       font-size:50px !important; 
+    }
+    #book{
+        display:flex;
+        justify-content: start;
+    }
+    #images{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1.5fr 1fr 1.5fr 1fr;
+    
+    }
+    #android{
+        display:flex;
+        justify-content: end;
+        margin-left: 20px;
+    }
+    #financialpng{
+        width:100%;
+        height:100%;
+    }
+    #financial{
+        height:300px;
+        width:300px;
+        border:15px solid #FFCCE1;
+        border-radius: 20rem;
+        grid-row: 1;
+    }
+    #programmerpng{
+        width:80%;
+        height:80%;
+    }
+    #programmer{
+        height:300px;
+        width:300px;
+        border:15px solid #FFCCE1;
+        border-radius: 40cm;
+        display:inline-block;
+        grid-row:3;
+    }
+}
+
